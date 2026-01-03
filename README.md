@@ -232,34 +232,7 @@ EDGE CASES HANDLED
 
 Each case results in a predictable and explainable state change.
 
-                        [FILE STRUCTURE]
 
-
-.
-├── backend/
-│   ├── main.py                 # FastAPI server
-│   ├── websocket_manager.py    # Connection management
-│   ├── frame_receiver.py       # Frame decoding
-│   ├── face_detection.py       # MediaPipe detection
-│   ├── gaze_tracker.py         # Gaze calculation
-│   ├── confusion_logic.py      # Confusion rules
-│   ├── state_resolver.py       # State priority
-│   └── requirements.txt
-├── frontend/
-│   ├── student/
-│   │   ├── App.jsx
-│   │   ├── CameraCapture.jsx
-│   │   └── WebSocketClient.jsx
-│   ├── teacher/
-│   │   ├── App.jsx
-│   │   ├── StatusIndicator.jsx
-│   │   └── TimelineChart.jsx
-│   ├── src/
-│   │   └── index.js
-│   ├── public/
-│   │   └── index.html
-│   └── package.json
-└── README.md
 
 
 
